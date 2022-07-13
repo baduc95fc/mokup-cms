@@ -1,32 +1,39 @@
-.container-title-page h1{
-font-size: 30px;
-font-weight: bold;
-line-height: 1.5;
+.container-title-page h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
 }
-.container-title-page span{
+
+.container-title-page span {
     color: gray;
     text-align: left;
 }
-.container-title-page span b{
+
+.container-title-page span b {
     margin-right: 20px;
     font-weight: 300;
 }
-.container-rate .describe-page{
-    margin:20px 0 20px;
+
+.describe-page {
+    margin: 20px 0 20px;
 }
-.container-rate .describe-page h2{
+
+.describe-page h2 {
     font-size: 20px;
     font-weight: 500;
 }
-.container-rate .describe-page a{
+
+.describe-page a {
     font-weight: 525;
     color: brown;
 
 }
-.container-rate .describe-page a:hover{
+
+.describe-page a:hover {
     color: black;
 }
-.container-rate .tbl-content{
+
+.tbl-content {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -34,21 +41,24 @@ line-height: 1.5;
     background-color: #edebeb;
     border: 1px solid black;
     border-radius: 5px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    margin-right:100px;
+    margin-right: 100px;
     margin-left: 2px;
 }
-.container-rate .tbl-content h2{
+
+.tbl-content h2 {
     font-size: 130%;
     font-weight: bolder;
     margin: 0;
 
 }
-.container-rate .tbl-content ul{
+
+.tbl-content ul {
     margin: 0;
 }
-.container-rate .tbl-content ul li{
+
+.tbl-content ul li {
     list-style: none;
     color: black;
     line-height: 1.6;
@@ -56,6 +66,56 @@ line-height: 1.5;
     font-weight: 300;
 
 }
-.container-rate .tbl-content ul li a:hover{
+
+.tbl-content ul li a:hover {
     text-decoration: underline;
+}
+.container-item{
+    margin-bottom: 20px;
+}
+.main-container-content-rate .title-content div {
+    margin-left: 50px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.main-container-content-rate .title-content span {
+    width: 45px;
+    height: 45px;
+    font-size:20px;
+    position: absolute;
+    background: pink;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+
+}
+.main-content-rate {
+    border: 1px solid gray;
+    padding: 20px;
+}
+.main-content-rate ul li{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.main-content-rate ul li .star {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.main-content-rate ul li  .star100{
+    background: url('../images/star100.png');
+    background-size: cover;
+}
+.main-content-rate ul li  .star50{
+    background: url('../images/star50.png');
+    background-size: cover;
+}
+.main-content-rate ul li  .star0{
+    background: url('../images/star0.png');
+    background-size: cover;
 }
