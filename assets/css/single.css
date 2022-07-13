@@ -1,0 +1,121 @@
+.container-title-page h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.container-title-page span {
+    color: gray;
+    text-align: left;
+}
+
+.container-title-page span b {
+    margin-right: 20px;
+    font-weight: 300;
+}
+
+.describe-page {
+    margin: 20px 0 20px;
+}
+
+.describe-page h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.describe-page a {
+    font-weight: 525;
+    color: brown;
+
+}
+
+.describe-page a:hover {
+    color: black;
+}
+
+.tbl-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: #edebeb;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 2px;
+}
+
+.tbl-content h2 {
+    font-size: 130%;
+    font-weight: bolder;
+    margin: 0;
+
+}
+
+.tbl-content ul {
+    margin: 0;
+}
+
+.tbl-content ul li {
+    list-style: none;
+    color: black;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.tbl-content ul li a:hover {
+    text-decoration: underline;
+}
+.container-item{
+    margin-bottom: 20px;
+}
+.main-container-content-rate .title-content div {
+    margin-left: 50px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.main-container-content-rate .title-content span {
+    width: 45px;
+    height: 45px;
+    font-size:20px;
+    position: absolute;
+    background: pink;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+
+}
+.main-content-rate {
+    border: 1px solid gray;
+    padding: 20px;
+}
+.main-content-rate ul li{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.main-content-rate ul li .star {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.main-content-rate ul li  .star100{
+    background: url('../images/star100.png');
+    background-size: cover;
+}
+.main-content-rate ul li  .star50{
+    background: url('../images/star50.png');
+    background-size: cover;
+}
+.main-content-rate ul li  .star0{
+    background: url('../images/star0.png');
+    background-size: cover;
+}
