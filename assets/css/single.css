@@ -1,0 +1,61 @@
+.container-title-page h1{
+font-size: 30px;
+font-weight: bold;
+line-height: 1.5;
+}
+.container-title-page span{
+    color: gray;
+    text-align: left;
+}
+.container-title-page span b{
+    margin-right: 20px;
+    font-weight: 300;
+}
+.container-rate .describe-page{
+    margin:20px 0 20px;
+}
+.container-rate .describe-page h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container-rate .describe-page a{
+    font-weight: 525;
+    color: brown;
+
+}
+.container-rate .describe-page a:hover{
+    color: black;
+}
+.container-rate .tbl-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: #edebeb;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-right:100px;
+    margin-left: 2px;
+}
+.container-rate .tbl-content h2{
+    font-size: 130%;
+    font-weight: bolder;
+    margin: 0;
+
+}
+.container-rate .tbl-content ul{
+    margin: 0;
+}
+.container-rate .tbl-content ul li{
+    list-style: none;
+    color: black;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.container-rate .tbl-content ul li a:hover{
+    text-decoration: underline;
+}
