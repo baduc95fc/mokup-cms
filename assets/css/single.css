@@ -1,3 +1,29 @@
+/* css đường dẫn */
+.way-point{
+    position: relative;
+    left: -25px;
+    top:0;
+}
+.way-point ul {
+    display: flex;
+}
+.way-point ul li{
+    list-style: none;
+    
+    
+}
+.way-point ul li::after{
+    content: '»';
+    margin:0 10px;
+    color: grey;
+    transform: scale(.9);
+}
+.way-point ul li:last-child::after{
+    content: '';
+   
+}
+
+/* css content */
 .container-title-page h1 {
     font-size: 30px;
     font-weight: bold;
@@ -70,9 +96,11 @@
 .tbl-content ul li a:hover {
     text-decoration: underline;
 }
-.container-item{
+
+.container-item {
     margin-bottom: 20px;
 }
+
 .main-container-content-rate .title-content div {
     margin-left: 50px;
     display: block;
@@ -83,7 +111,7 @@
 .main-container-content-rate .title-content span {
     width: 45px;
     height: 45px;
-    font-size:20px;
+    font-size: 20px;
     position: absolute;
     background: pink;
     border-radius: 50%;
@@ -92,14 +120,20 @@
     font-weight: bold;
 
 }
+
 .main-content-rate {
     border: 1px solid gray;
     padding: 20px;
 }
-.main-content-rate ul li{
+
+.main-content-rate ul li {
     margin-bottom: 8px;
     font-size: 16px;
 }
+.btn-tbl-content > .summary-content:target{
+    display: none;
+}
+
 .main-content-rate ul li .star {
     width: 20px;
     height: 20px;
@@ -107,15 +141,116 @@
     position: relative;
     top: 3px;
 }
-.main-content-rate ul li  .star100{
+
+.main-content-rate ul li .star100 {
     background: url('../images/star100.png');
     background-size: cover;
 }
-.main-content-rate ul li  .star50{
+
+.main-content-rate ul li .star50 {
     background: url('../images/star50.png');
     background-size: cover;
 }
-.main-content-rate ul li  .star0{
+
+.main-content-rate ul li .star0 {
     background: url('../images/star0.png');
     background-size: cover;
+}
+/* css bar share */
+.bar-share {
+    position: -webkit-sticky;
+
+    position: sticky !important;
+
+
+    left: 0;
+    top: 0;
+}
+
+.options-share ul {
+    margin: 0;
+}
+
+.options-share ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.options-share a>img:hover {
+    transform: scale(1.2);
+}
+
+.options-share a img {
+    max-width: 40px;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px yellow;
+}
+.bottom-content{
+    max-width: 100%;
+
+}
+.bottom-content .title-bottom-content{
+    width: 100%;
+    background: gray;
+    color: #fff;
+    text-align: left;
+    padding:10px 15px;
+}
+.bottom-content .title-bottom-content span{
+    color: #FF4C60;
+}
+.bottom-content .title-bottom-content h2,.bottom-content  h3{
+    margin: 0 !important;
+}
+.bottom-content .main-bottom-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bottom-content .item-content{
+   
+    width: 45%;
+    margin: 25px 0 20px;
+}
+.bottom-content .container-img{
+   width: 100%;
+    position: relative;
+}
+.bottom-content .container-img::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-top: 60%;
+    width: 100%;
+}
+
+
+
+.bottom-content .item-content img{
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.bottom-content .container-img a>img:hover{
+    opacity: 0.8;
+}
+.bottom-content .describe div{
+    display: inline;
+    font-weight: bold;
+}
+.bottom-content .describe div p{
+    color: gray;
+}
+.bottom-content .describe div span{
+    color: #FF4C60;
+    
+
+}
+.bottom-content .describe div span::before{
+    content: '- ';
 }
