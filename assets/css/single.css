@@ -44,22 +44,22 @@
     font-weight: 300;
 }
 
-.describe-page {
+.description-page {
     margin: 20px 0 20px;
 }
 
-.describe-page h2 {
+.description-page h2 {
     font-size: 20px;
     font-weight: 500;
 }
 
-.describe-page a {
+.description-page a {
     font-weight: 525;
     color: brown;
 
 }
 
-.describe-page a:hover {
+.description-page a:hover {
     color: black;
 }
 
@@ -118,6 +118,7 @@
     height: 45px;
     font-size: 25px;
     position: absolute;
+    color:#fff;
     background: #FF4C60;
     border-radius: 50%;
     text-align: center;
@@ -138,7 +139,9 @@
 .main-content-rate ul li {
     margin-bottom: 8px;
     font-size: 16px;
+  
 }
+
 
 .btn-tbl-content{
     text-align: right;
@@ -251,7 +254,7 @@
 
 .bottom-content .title-bottom-content h2,
 .bottom-content h3 {
-    margin: 0 !important;
+    margin: 10px 0 10px !important;
 }
 
 .bottom-content .main-bottom-content {
@@ -263,7 +266,7 @@
 
 .bottom-content .item-content {
 
-    width: 45%;
+    width: 48%;
     margin: 25px 0 20px;
 }
 
@@ -295,20 +298,19 @@
     opacity: 0.8;
 }
 
-.bottom-content .describe div {
+.bottom-content .description div {
     display: inline;
-    font-weight: bold;
 }
 
-.bottom-content .describe div p {
+.bottom-content .description div p {
     color: gray;
 }
 
-.bottom-content .describe div span {
+.bottom-content .description div span {
     color: #FF4C60;
 }
 
-.bottom-content .describe div span::before {
+.bottom-content .description div span::before {
     content: '- ';
     color: #000
 }
