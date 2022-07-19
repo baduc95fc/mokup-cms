@@ -156,6 +156,7 @@
 .btn-tbl-content button{
     border: 3px black !important;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 
