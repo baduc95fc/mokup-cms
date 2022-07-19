@@ -1,26 +1,30 @@
 /* css đường dẫn */
-.way-point{
+.way-point {
     position: relative;
     left: -25px;
-    top:0;
+    top: 0;
 }
+
 .way-point ul {
     display: flex;
 }
-.way-point ul li{
+
+.way-point ul li {
     list-style: none;
-    
-    
+
+
 }
-.way-point ul li::after{
+
+.way-point ul li::after {
     content: '»';
-    margin:0 10px;
+    margin: 0 10px;
     color: grey;
     transform: scale(.9);
 }
-.way-point ul li:last-child::after{
+
+.way-point ul li:last-child::after {
     content: '';
-   
+
 }
 
 /* css content */
@@ -71,6 +75,7 @@
     margin-bottom: 20px;
     margin-right: 100px;
     margin-left: 2px;
+    transition: width 2s, height 4s;
 }
 
 .tbl-content h2 {
@@ -111,18 +116,22 @@
 .main-container-content-rate .title-content span {
     width: 45px;
     height: 45px;
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
-    background: pink;
+    background: #FF4C60;
     border-radius: 50%;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
     font-weight: bold;
 
 }
 
+.main-container-content-rate .title-content h1 {
+    font-size: 22px;
+}
+
 .main-content-rate {
-    border: 1px solid gray;
+    border: 1px solid rgb(152, 152, 152);
     padding: 20px;
 }
 
@@ -130,9 +139,22 @@
     margin-bottom: 8px;
     font-size: 16px;
 }
-.btn-tbl-content > .summary-content:target{
-    display: none;
+
+.btn-tbl-content{
+    text-align: right;
 }
+.btn-tbl-content button div{
+    width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 3px 0;
+  border-radius:2px;
+}
+.btn-tbl-content button{
+    border: 3px black !important;
+    border-radius: 2px;
+}
+
 
 .main-content-rate ul li .star {
     width: 20px;
@@ -156,15 +178,13 @@
     background: url('../images/star0.png');
     background-size: cover;
 }
+
 /* css bar share */
 .bar-share {
     position: -webkit-sticky;
-
     position: sticky !important;
-
-
     left: 0;
-    top: 0;
+    top: 50px;
 }
 
 .options-share ul {
@@ -174,9 +194,35 @@
 .options-share ul li {
     list-style: none;
     margin-top: 10px;
+    display: inline-block;
 }
 
-.options-share a>img:hover {
+.options-share ul li a {
+    display: block;
+}
+
+.options-share svg {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.options-share svg path {
+    color: #fff;
+}
+
+.facebook-share {
+    background: #1B74E4;
+}
+
+.instagram-share {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.pinterest-share {
+    background: #CC0000;
+}
+
+.options-share a>svg:hover {
     transform: scale(1.2);
 }
 
@@ -186,39 +232,47 @@
     border-radius: 50%;
     box-shadow: 0 0 2px 2px yellow;
 }
-.bottom-content{
-    max-width: 100%;
 
+.bottom-content {
+    max-width: 100%;
 }
-.bottom-content .title-bottom-content{
+
+.bottom-content .title-bottom-content {
     width: 100%;
     background: gray;
     color: #fff;
     text-align: left;
-    padding:10px 15px;
+    padding: 10px 15px;
 }
-.bottom-content .title-bottom-content span{
+
+.bottom-content .title-bottom-content span {
     color: #FF4C60;
 }
-.bottom-content .title-bottom-content h2,.bottom-content  h3{
+
+.bottom-content .title-bottom-content h2,
+.bottom-content h3 {
     margin: 0 !important;
 }
-.bottom-content .main-bottom-content{
+
+.bottom-content .main-bottom-content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.bottom-content .item-content{
-   
+
+.bottom-content .item-content {
+
     width: 45%;
     margin: 25px 0 20px;
 }
-.bottom-content .container-img{
-   width: 100%;
+
+.bottom-content .container-img {
+    width: 100%;
     position: relative;
 }
-.bottom-content .container-img::before{
+
+.bottom-content .container-img::before {
     content: "";
     display: block;
     height: 0;
@@ -228,7 +282,7 @@
 
 
 
-.bottom-content .item-content img{
+.bottom-content .item-content img {
     height: 100%;
     left: 0;
     object-fit: cover;
@@ -236,21 +290,25 @@
     top: 0;
     width: 100%;
 }
-.bottom-content .container-img a>img:hover{
+
+.bottom-content .container-img a>img:hover {
     opacity: 0.8;
 }
-.bottom-content .describe div{
+
+.bottom-content .describe div {
     display: inline;
     font-weight: bold;
 }
-.bottom-content .describe div p{
+
+.bottom-content .describe div p {
     color: gray;
 }
-.bottom-content .describe div span{
-    color: #FF4C60;
-    
 
+.bottom-content .describe div span {
+    color: #FF4C60;
 }
-.bottom-content .describe div span::before{
+
+.bottom-content .describe div span::before {
     content: '- ';
+    color: #000
 }
